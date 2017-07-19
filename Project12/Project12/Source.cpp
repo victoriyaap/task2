@@ -9,7 +9,7 @@ int main()
 	string var;
 	cout << "Enter var:\n";
 	getline(cin, var);
-	WriteFile(var);
+	cout << WriteFile(var);
 	system("pause");
 	return 0;
 }
